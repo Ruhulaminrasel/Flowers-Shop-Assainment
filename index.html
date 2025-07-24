@@ -147,9 +147,9 @@
            
                 <h2 class="font-bold text-5xl mt-12">Flower & Plants<br> Lover</h2>
                  <ul class="space-y-4 text-gray-600 list-disc list-inside mt-10 text-2xl">
-                   <li class="mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                   <li class="mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                   <li class="">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                   <li class="mb-8 text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                   <li class="mb-8 text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                   <li class="text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                  </ul>
             
         </div>
@@ -166,61 +166,78 @@
     </div>
 
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-10 ">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-10">
   <!-- Left Column (2 small banners stacked) -->
-  <div class="flex flex-col  gap-4">
+  <div class="flex flex-col gap-4">
     <!-- First small banner -->
-    <div class="w-[550px] h-[197px] md:w-full md:h-40 bg-[url(./assets/deal-bloom.png)] brightness-50 rounded-2xl bg-cover bg-center text-white flex items-center justify-center p-4">
-      <div class="text-center text-white ">
-        <p class="text-sm font-semibold">60% Off | Bloom Plant</p>
-        <button class="text-xs underline text-center">Shop Now</button>
+    <div class="relative z-0 w-[400px] h-[197px] md:w-full md:h-40 rounded-2xl overflow-hidden">
+      <!-- Background Image with brightness -->
+      <div class="absolute inset-0 bg-[url(./assets/deal-bloom.png)] bg-cover bg-center brightness-55"></div>
+
+      <!-- Text content -->
+      <div class="relative z-10 flex items-center justify-center h-full p-4 text-white text-center">
+        <div>
+          <p class="text-sm font-semibold">60% Off | Bloom Plant</p>
+          <button class="text-xs underline">Shop Now</button>
+        </div>
       </div>
     </div>
+
     <!-- Second small banner -->
-    <div class="block mx-auto w-[550px] h-[197px] md:w-full md:h-40 bg-[url(./assets/deal-ana.png)]  brightness-50 rounded-2xl bg-cover bg-center text-white flex items-center justify-center p-4">
-      <div class="text-center">
-        <p class="text-sm font-bold ">30% Off | Ana Plant</p>
-        <button class="text-xs underline text-center">Shop Now</button>
+    <div class="relative z-0 block mx-auto w-[400px] h-[197px] md:w-full md:h-40 rounded-2xl overflow-hidden">
+      <div class="absolute inset-0 bg-[url(./assets/deal-ana.png)] bg-cover bg-center brightness-55"></div>
+
+      <div class="relative z-10 flex items-center justify-center h-full p-4 text-white text-center">
+        <div>
+          <p class="text-sm font-bold">30% Off | Ana Plant</p>
+          <button class="text-xs underline">Shop Now</button>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Right Column (main banner spans 2 columns) -->
-  <div class="w-[550px] h-[197px] md:w-full md:h-40  col-span-2 md:h-[330px] bg-[url(./assets/deal-zabo.png)] brightness-50  rounded-2xl bg-cover bg-center text-white flex items-center justify-center p-6 ">
-    <div class="text-center">
-      <p class="text-xl font-semibold">25% Off | <span class="font-bold">Zabo Plant</span></p>
-      <button class="mt-2 text-sm underline text-center">Shop Now</button>
+  <div class="relative z-0 w-[400px] h-[197px] md:w-full md:h-[330px] col-span-2 rounded-2xl overflow-hidden">
+    <div class="absolute inset-0 bg-[url(./assets/deal-zabo.png)] bg-cover bg-center brightness-55"></div>
+
+    <div class="relative z-10 flex items-center justify-center h-full p-6 text-white text-center">
+      <div>
+        <p class="text-xl font-semibold">25% Off | <span class="font-bold">Zabo Plant</span></p>
+        <button class="mt-2 text-sm underline">Shop Now</button>
+      </div>
     </div>
   </div>
 </div>
 
+-->
      <!--latest deals section End here Here-->
 
      <!--News letter section Start Here-->
 
-<div class="news bg-[url(./assets/news-letter-bg.png)] bg-no-repeat w-full h-full py-50 mt-30">
+<div class="news bg-[url(./assets/news-letter-bg.png)] bg-no-repeat w-[500px] md:w-full h-full py-50 mt-30">
     <div class="title">
         <h3 class="text-center font-bold text-4xl text-white mb-5">Join the colorful Bunch</h3>
     </div>
      
     
-    <div class="news-letter text-center">
-        <input type="email" name="" id="" placeholder="Write Your Email" class="bg-white px-25 py-2 ">
-        <button><a href="" class="bg-amber-700 px-25 py-2  text-white hover:bg-amber-600">Subscribe</a></button>
+    <div class="news-letter text-center flex items-center justify-center">
+        <input type="email" name="" id="" placeholder="Write Email" class=" w-[200px]   md:w-[500px] h-auto bg-white px-4 py-2   rounded  ">
+        <!-- <button ><a href="" class=" bg-amber-700 px-25 py-2  text-white hover:bg-amber-600">Subscribe</a></button> -->
+         <button ><a href="" class=" bg-amber-700 text-white hover:bg-amber-600 px-6 py-2 rounded w-[120px] sm:w-auto text-sm">Subscribe</a></button>
     </div>
 
 </div>
       <!--News letter section End Here-->
 
        <!--Footer section Start Here-->
-<div class="footer flex mt-8">
+<div class="footer mt-8 md:flex">
     <div class="logo">
         <img src="./assets/logo.png" alt="">
-        <p class="text-sm mt-1">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+        <p class=" text-2xl text-gray-600 md:text-sm mt-1">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
     </div>
 
     <div class="footer-navbar mt-8">
-        <ul class="grid grid-cols-2 gap-18 px-20 text-sm leading-1">
+        <ul class="grid md:grid-cols-2 text-gray-600 gap-18 md:px-20 text-2xl md:text-sm leading-1">
             <li><a href="">Home</a></li>
             <li><a href="">About us</a></li>
             <li><a href="">Blog</a></li>
