@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Flowers Shop </title>
+    <script src="https://kit.fontawesome.com/e0406604ca.js" crossorigin="anonymous"></script>
+     <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .spin-infinite {
+      animation: spin 5s linear infinite;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar Start Here-->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+     <div class="header flex justify-between items-center flex-wrap md:flex-nowrap ">
+        <div class="logo m-2.5">
+            <img src="./assets/logo.png" alt="logo">
+        </div>
+         
+        <div class="navbar">
+            <ul class="flex justify-between space-x-6 items-center">
+                <li class="font-semibold"><a href="" class="hidden md:block hover:text-amber-700 px-2.5 py-2 delay-150">Home</a></li>
+                <li class="text-gray-400"><a href="" class="hidden md:block hover:text-amber-700 px-2.5 py-2 delay-150 ">Shop</a></li>
+                <li class="text-gray-400"><a href="" class="hidden md:block hover:text-amber-700 px-2.5 py-2 delay-150 ">About us</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i><a href="" class=" hover:text-amber-700 px-2.5 py-2 delay-150"> Cart ($56)</a></li>
+               
+            </ul>
+        </div>
+     </div>
+
+   <!-- Navbar Finish Here-->
